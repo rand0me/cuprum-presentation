@@ -68,13 +68,13 @@ export default class Presentation extends React.Component {
           </Appear>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
-          <Heading size={1} textColor="secondary" caps>
+          <Heading size={2} caps bold textColor="secondary" caps>
             Ethereum
           </Heading>
           <Appear>
             <BlockQuote>
               <Text size={6} textColor="primary">
-                At its simplest, Ethereum is an open software platform based on blockchain technology that enables developers to build and deploy decentralized applications.
+                At its simplest, Ethereum is an open software platform based on blockchain technology that enables developers to build and deploy decentralized <br/> applications.
               </Text>
               <Cite textColor="secondary">https://blockgeeks.com/</Cite>
             </BlockQuote>
@@ -102,8 +102,8 @@ export default class Presentation extends React.Component {
           <Heading size={2} textColor="primary" caps fit>
             Cuprum
           </Heading>
-          <Text textColor="tertiary" caps>
-            uses smart contracts to provide next-generation advertising services
+          <Text textColor="tertiary" >
+            - uses smart contracts to provide next-generation advertising services
           </Text>
         </Slide>
       </Deck>
